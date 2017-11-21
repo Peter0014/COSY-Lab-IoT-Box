@@ -1,0 +1,309 @@
+%!TeX encoding = UTF-8
+%!TeX spellcheck = en_US
+
+\documentclass[notitlepage]{article}
+\usepackage[left=2.cm,right=2.cm,top=.8cm,bottom=.8cm,includefoot,includehead,headheight=39pt]{geometry}
+% \geometry{letterpaper}
+
+\usepackage[utf8]{inputenc}
+\usepackage{paralist}
+\usepackage{fullpage}
+
+\usepackage{titling}
+\usepackage{framed}
+\usepackage{color}
+\usepackage{comment}
+
+\pretitle{\begin{center}\LARGE \bfseries Use-Case Specifications: }
+\posttitle{\par\end{center}\vskip 0.5em}
+\date{}
+\author{}
+
+\renewcommand*\sectionmark[1]{\markboth{#1}{}}
+\renewcommand*\subsectionmark[1]{\markright{#1}}
+
+\newcommand{\name}[1]{%
+   \title{#1}
+   \maketitle
+}
+
+\includecomment{comment}
+
+\begin{document}
+\name{}
+
+\vspace{-2cm}%   
+
+\section{Data visualization}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+
+To analyze and share the data it's necessary to have some kind of output that is readable by humans and computers. To achieve that some kind of visualization is necessary. A download of the data should also be available in a standardized format.
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+
+\begin{enumerate}
+	\item The user selects some filter options that are used on the available data.
+	      \textit{(a - filter data)}
+	      
+	\item If the data is older than 24 hours, a process is invoked to fetch the latest available data from the IoT-Boxes.
+	      \textit{(b - update/collect sensor data)}
+	      
+	\item Depending on the data different kinds of charts are shown representing it. Possible charts to show changes over time would be the line chart, historical bar chart and stacked area chart. To show the range of values (i. e. safe values for gas or UV light) a box plot chart is used.
+	      
+	\item The user downloads the data that is visualized right now and exports it as a csv file. 
+	      
+\end{enumerate}
+
+\subsubsection{Alternative Scenario}
+\subsubsection*{IoT-Box is offline}
+\begin{enumerate}
+	\item[2a.]{Not all boxes can be reached. The user will be informed that the data is incomplete and which IoT-Boxes are offline (error code 101 - IoT-Box unavailable).}
+	      
+\end{enumerate}
+
+
+\subsubsection*{No data available}
+\begin{enumerate}
+	\item[3a.]{There is no data that can be shown as of now because no data was generated yet or it couldn't fetch any. The user is informed about that situation.}
+	      
+\end{enumerate}
+
+\section{Filter data}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+It's possible to filter data based on the user's intent because not every available data value is necessary for him/her. Different filters allow a detailed overview with just a snippet of the accumulated data.
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+
+\textit{Extends 'data visualization'}
+
+\begin{enumerate}
+	
+	\item First the user selects what boxes will be shown or hidden in the final result. He can choose between one IoT-Box or all of them.
+	      
+	\item The user selects what kind of sensor data he wants to have included. He/she can choose between temperature, humidity, pressure, VOC, eCO2, ultraviolet, infrared and visible light. One or more need to be chosen.
+	      
+	\item Finally the user selects the dates that are important to him. Sensor data recorded between two dates (including themselves) are filtered. It's also possible to select just one day.
+	      
+\end{enumerate}
+
+\subsection{Postconditions}
+
+\subsubsection{Filtered dataset}
+After the user selected the options to filter the data it gets visualized and a download is available (use case 'data visualization').
+
+
+\section{Register testbed}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+To get sensor data it is necessary to connect the IoT-Boxes to the server. By registering them to the server it's possible to update the data when necessary.
+
+\subsection{Preconditions}
+
+\subsubsection{Precondition one}
+The user needs to be logged in as an admin to update this information.
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+\begin{enumerate}
+	
+	\item After the user logged in he's/she's able to put in the IP-address of the IoT-Box.
+	      
+	\item He also needs to create a cluster by putting in a name or choose a previously existing one.
+	      
+	\item The IP-address is pinged and added to that cluster if it's a 'UniVie IoT-Box'.
+	      
+	\item The user can assign a name to the IoT-Box to recognize it more easily if the cluster gets bigger.
+	      
+	\item The data will be updated for the first time and added to the existing data set of the other boxes (use case 'update/collect sensor data')
+	      
+	      
+\end{enumerate}
+
+\subsubsection{Alternative Scenario}
+\subsubsection*{IP-address not reachable}
+
+\begin{enumerate}
+	\item[2a.]{The IP-address can't be reached or the device behind it is not recognized as an 'UniVie IoT-Box'. The user is asked to put in a different IP-address.}
+	      
+\end{enumerate}
+
+\subsection{Postconditions}
+
+\subsubsection{New IoT-Device}
+
+A new IoT-Device is added to the cluster and will be included in the updates during the use case 'update/collect sensor data'.
+
+\section{Delete testbed}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+
+It's also possible to delete a previously registered IoT-Box and testbed from the cluster. It won't be included in data updates after it has been removed.
+
+\subsection{Preconditions}
+
+\subsubsection{Precondition one}
+At least one testbed needs to have been added before to the cluster.
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+
+\begin{enumerate}
+	
+	\item The user selects one or several of the available IoT-Boxes to delete.
+	      
+	\item Sensor data will be pulled one last time before it's removed to make sure that no data is missing (use case 'update/collect sensor data').
+	      
+	\item It is removed from the cluster and the user gets notified about the successful removal.
+	      
+\end{enumerate}
+
+\subsection{Postconditions}
+
+\subsubsection{Testbed deleted}
+The IoT-Box and testbed is deleted from the cluster and won't be included in any further data updates until it's added again.
+
+\section{Update Code}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+
+To adapt to different use cases of the boxes it's possible to update certain parts of the processing code. The user can write and push parts of codes to the boxes over the internet.
+
+\subsection{Preconditions}
+
+\subsubsection{Precondition one}
+The user needs to be logged in as an admin to update code.
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+\begin{enumerate}
+	\item The user selects a cluster that he wants to update.
+	      
+	\item The code will be put in by the user. To help him/her as much as possible it would be good to have an auto-complete editor with highlighting.
+	      
+	\item The code will be checked if there are any syntax errors.
+	      
+	\item The user sends the code to the cluster of IoT-Boxes if no syntax errors exist.
+	      
+	\item The code will be run on the devices (use case 'run code').
+	      
+\end{enumerate}
+
+\subsubsection{Alternative Scenario}
+\subsubsection*{No cluster}
+\begin{enumerate}
+	\item[1a.]{The user can't continue if there is no cluster yet that can receive an update.}
+\end{enumerate}
+
+\subsubsection*{Syntax errors}
+\begin{enumerate}
+	\item[2a.]{The user can't continue if there is no cluster yet that can receive an update.}
+\end{enumerate}
+
+\subsubsection*{Runtime errors}
+\begin{enumerate}
+	\item[5a.]{The user will be informed about any runtime errors that occur, like running code for sensors that aren't connected, unresponsive boxes, endless loops.}
+\end{enumerate}
+
+\subsection{Postconditions}
+
+\subsubsection{Updated code}
+The user code in the selected cluster of boxes is updated and will be run during the use case 'run user code'.
+
+\section{Update/collect sensor data}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+It's necessary to collect sensor data from the IoT-Boxes and update them on the server to visualize and export it. 
+
+\subsection{Preconditions}
+
+\subsubsection{Precondition one}
+At least one IoT-Box needs to have been added before to the cluster.
+
+\subsubsection{Precondition two}
+Some user code must have been pushed to the IoT-Boxes successfully.
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+
+\begin{enumerate}
+	\item All the registered IoT-Boxes are being iterated to fetch data they have been collecting.
+	      
+	\item The IoT-Boxes send their data back to the server where it's being aggregated and stored.
+	      
+	\item A message will be send back to the IoT-Box to notify them about the successful delivery of the data.
+\end{enumerate}
+
+\subsubsection{Alternative Scenario}
+\subsubsection*{IoT-Box offline}
+
+\begin{enumerate}
+	\item[1a.]{If an IoT-Box is offline then no data can be send back. Another attempt will be started before an error code (101 - IoT-Box unavailable) will be displayed.}
+\end{enumerate}
+
+\subsubsection*{Data not received}
+
+\begin{enumerate}
+	\item[3a.]{Another attempt will be started (2.) if no notification comes back. A log will be saved with date and error code (102 - Request Timeout) if there's still no message about the successful delivery.}
+\end{enumerate}
+
+\subsection{Postconditions}
+
+\subsubsection{Sensor data received}
+The Requester receives a copy of the latest sensor data from each of the IoT-Boxes.
+
+\section{Read sensor data}
+
+\subsection{General Information}
+\subsubsection{Use-case description}
+To analyze, visualize and export data it's important to collect it first. The IoT-Boxes read the sensor data over the connection through I2C.
+
+\subsection{Preconditions}
+
+\subsubsection{Precondition one}
+Sensors need to be connected to the Raspberry Pi IoT-Boxes
+
+\subsection{Scenarios}
+
+\subsubsection{Main Scenario}
+
+\begin{enumerate}
+	\item Depending on the user code (use case 'run code') the connected sensors data is read.
+	\item New incoming sensor data is constantly saved in a file (one per month) that will be send out if needed (use case 'update/collect sensor data')
+	\item Sensor data that is older than a year will be deleted from the IoT-Box to preserve some disk space. 
+\end{enumerate}
+
+\subsubsection{Alternative Scenario}
+
+\subsubsection*{Sensor not connected}
+\begin{enumerate}
+	\item[1a.]{If the data can't be read because the sensor is not correctly connected a message will be send to the server to inform the user that the code isn't executable (error code 103 - Unprocessable code).}
+\end{enumerate}
+
+\subsubsection*{No disk space left}
+\begin{enumerate}
+	\item[2a.]{No new data can be recorded because there is no free disk space available anymore. The data collection will be stopped.}
+\end{enumerate}
+
+\subsection{Postconditions}
+
+\subsubsection{Sensor data recorded}
+A file is created with the collected sensor data ready to be send out if needed.
+
+
+\end{document}
