@@ -1,0 +1,33 @@
+log("Getting Data from CoSy-Box...\n")
+
+envFile = openfile("envout.csv", True)
+envHeader = "Temperature;Humidity;Pressure\n"
+envOffset = 0
+envFile.writeat(envHeader, envOffset)
+envOffset += len(envHeader)
+
+lightFile = openfile("lightout.csv", True)
+lightHeader = "UV;IR;VIS\n"
+lightOffset = 0
+lightFile.writeat(lightHeader, lightOffset)
+lightOffset += len(lightHeader)
+
+while True:
+    temperature = get_temperature()
+    humidity = get_humidity()
+    pressure = get_pressure()
+
+    humRound = "{0:.2f}".format(humidity)
+    pressRound = "{0:.2f}".format(pressure)
+    envOutput = str(temperature) + ";" + str(humRound) + ";" + str(pressRound) + "\n"
+    envFile.writeat(envOutput, envOffset)
+    envOffset += len(envOutput)
+
+    uv = get_UV()
+    ir = get_IR()
+    vis = get_VIS()
+
+    lightOutput = str(uv) + ";" + str(ir) + ";" + str(vis) + "\n"
+    lightFile.writeat(lightOutput, lightOffset)
+    lightOffset += len(lightOutput)
+    sleep(30)

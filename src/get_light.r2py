@@ -1,0 +1,20 @@
+log("Getting Data from CoSy-Box...\n")
+tempFile = openfile("lightout.csv", True)
+header = "UV;IR;VIS\n"
+i = 0
+tempFile.writeat(header, i)
+i += len(header)
+while True:
+    uv = get_UV()
+    ir = get_IR()
+    vis = get_VIS()
+    log("Data received! \n")
+
+    log("u:", uv, "\n")
+    log("i:", ir, "\n")
+    log("v:", vis, "\n")
+
+    output = str(uv) + ";" + str(ir) + ";" + str(vis) + "\n"
+    tempFile.writeat(output, i)
+    i += len(output)
+    sleep(30)

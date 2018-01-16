@@ -1,0 +1,24 @@
+log("Getting Data from CoSy-Box...\n")
+tempFile = openfile("envout.csv", True)
+header = "Temperature;Humidity;Pressure\n"
+i = 0
+tempFile.writeat(header, i)
+i += len(header)
+while True:
+    temperature = get_temperature()
+    humidity = get_humidity()
+    pressure = get_pressure()
+    log("Data received! \n")
+
+    log("T:", temperature, "C \n")
+
+    humRound = "{0:.2f}".format(humidity)
+    log("H::", humRound, "hPa \n")
+
+    pressRound = "{0:.2f}".format(pressure)
+    log("P::", pressRound, "% \n")
+
+    output = str(temperature) + ";" + str(humRound) + ";" + str(pressRound) + "\n"
+    tempFile.writeat(output, i)
+    i += len(output)
+    sleep(30)
