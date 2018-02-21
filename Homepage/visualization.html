@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Visualization - CoSy-Lab-IoT-Box</title>
+<!--         CSS        -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fa-svg-with-js.css">
+<link rel="stylesheet" href="css/main.css">
+<!--       SCRIPTS      -->
+<script language="javascript" type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/fontawesome-all.min.js"></script>
+	
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.js"></script>
+<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.9/angular-nvd3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/dataServices.js"></script>
+
+</head>
+<body class="bg-light" ng-controller="MainCtrl">
+<!--       NAVBAR       -->
+<nav class="navbar navbar-expand-sm bg-blue navbar-dark"> <a class="navbar-brand" href="index.html"> <i class="fas fa-flask fa-lg align-middle"></i> <img src="img/logo.png" height="30em" class="align-middle" alt="Text Logo Cosy Lab IoT Box"> </a>
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item"> <a class="nav-link" href="index.html">Overview</a> </li>
+    <li class="nav-item active"> <a class="nav-link" href="visualization.html">Visualization</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+  </ul>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item"> <a class="nav-link" href="https://github.com/Peter0014/COSY-Lab-IoT-Box"><i class="far fa-external-link"></i> GitHub Repo</a> </li>
+  </ul>
+</nav>
+<!--     END-NAVBAR     --> 
+
+<!--       CONTENT      -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm rounded">
+      <p class="text-center display-4"><i class="fas fa-eye fa-xs align-middle"></i> Visualization</p>
+      <div class="input-group">
+        <label class="btn btn-primary">Browse...
+          <input type="file" class="d-none" onchange="$('#fileName').val(this.files[0].name)">
+        </label>
+        <input type="text" id="fileName" class="form-control input-text" readonly>
+      </div>
+      <span>Select a file from your CoSy Lab IoT Box or one in the <a href="#formatModal" data-toggle="modal" data-target="#formatModal">right format</a> to visualize</span> </div>
+  </div>
+  <div class="row">
+    <div class="col-lg card pt-2 m-3" ng-repeat="widget in dashboard.widgets">
+      <p class="text-center rounded card-header h3">{{ widget.name }}</p>
+      <nvd3 options="widget.chart.options" 
+            data="widget.chart.data" 
+            api="widget.chart.api" 
+            config="config" 
+            events="events"></nvd3>
+    </div>
+  </div>
+</div>
+
+<!-- Format Modal -->
+<div class="modal fade" id="formatModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title h4">Right Formatting</p>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>The data parser accepts a .csv file in which all values are seperated by a semicolon.
+        <div class="spacing"></div>
+        This is an example for a correctly formatted file:
+        </p>
+        <img src="http://via.placeholder.com/500x200" class="img-fluid" alt="A correctly formatted JSON File"> </div>
+    </div>
+  </div>
+</div>
+<!--     END-CONTENT    --> 
+
+<!--       FOOTER       -->
+<footer class="page-footer bg-blue center-on-small-only">
+  <div class="footer-copyright text-center">
+    <div class="text-white"> © 2017 - 2018 Copyright: Peter Klosowski </div>
+  </div>
+</footer>
+<!--     END-FOOTER     -->
+
+</body>
+</html>

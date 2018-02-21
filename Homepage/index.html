@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CoSy-Lab-IoT-Box</title>
+<!--         CSS        -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fa-svg-with-js.css">
+<link rel="stylesheet" href="css/main.css">
+<!--       SCRIPTS      -->
+<script language="javascript" type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/fontawesome-all.min.js"></script>
+</head>
+<body class="bg-light">
+<!--       NAVBAR       -->
+<nav class="navbar navbar-expand-sm bg-blue navbar-dark"> <a class="navbar-brand" href="index.html"> <i class="fas fa-flask fa-lg align-middle"></i> <img src="img/logo.png" height="30em" class="align-middle" alt="Text Logo Cosy Lab IoT Box"> </a>
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active"> <a class="nav-link" href="index.html">Overview</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="visualization.html">Visualization</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+  </ul>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item"> <a class="nav-link" href="https://github.com/Peter0014/COSY-Lab-IoT-Box"><i class="far fa-external-link"></i> GitHub Repo</a> </li>
+  </ul>
+</nav>
+<!--     END-NAVBAR     --> 
+
+<!--       CONTENT      -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg card pt-2 m-3">
+      <p class="text-center rounded card-header h3"><i class="fas fa-info-circle"></i> Description</p>
+      <p class="text-justify card-body">This project was part of my bachelor thesis at the University of Vienna. In collaboration with the Cooperated Systems (CoSy) department I built a simple, easily deployable and open (FLOSS) IoT device that students and academics can use for experiments.</p>
+    </div>
+    <div class="col-lg card pt-2 m-3">
+      <p class="text-center rounded card-header h3"><i class="fas fa-flag-checkered"></i> Goal</p>
+      <p class="text-justify card-body">The goal was to built a modular IoT Box that can be configured over the Internet. The user manages a cluster of boxes and pushes code for various use cases depending on his intents to the boxes. To achieve that the existing Seattle Testbed codebase will be used. This should solve issues like "cluster management", software updates and code pushing.</p>
+    </div>
+    <div class="col-lg card pt-2 m-3">
+      <p class="text-center rounded card-header h3"><i class="fas fa-eye"></i> Visualization</p>
+      <p class="text-justify card-body">After the boxes were built, it was necessary to visualize the data that was produced by them. The main purpose of this site is to do exactly that. Under the tab 'visualization' it is possible to show the current collected data and create diagrams with it. The user is also able to upload his own data set.</p>
+    </div>
+  </div>
+</div>
+<!--     END-CONTENT    --> 
+
+<!--       FOOTER       -->
+<footer class="page-footer bg-blue center-on-small-only">
+  <div class="footer-copyright text-center">
+    <div class="text-white"> © 2017 - 2018 Copyright: Peter Klosowski </div>
+  </div>
+</footer>
+<!--     END-FOOTER     -->
+
+</body>
+</html>

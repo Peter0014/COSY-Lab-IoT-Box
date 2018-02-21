@@ -1,0 +1,14 @@
+Flugzeug mehrere Sensoren 
+Cosylab vernetzen
+
+temperatur in verschiedenen stockwerken
+Feuchtigkeit im apartement
+Seismograph verteilt in Wien
+
+
+webbrowser gui
+
+
+http://ieeexplore.ieee.org/document/7978854/references - Research on indoor environment monitoring system based on ZigBee
+http://ieeexplore.ieee.org/document/6601413/ - Experience with Seattle: A Community Platform for Research and Education
+

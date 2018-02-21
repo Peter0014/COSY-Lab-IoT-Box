@@ -1,0 +1,31 @@
+/*****************************************************************
+<File Name>
+  download_keys.css
+
+<Started>
+  January 2011
+
+<Author>
+  Alex Hanson
+
+<Purpose>
+  Provides styling for the cryptographic keys download page of the
+  Custom Installer Builder.
+*****************************************************************/
+
+table {
+  margin-left: 5%;
+}
+
+.button.key {
+  width: 230px;
+}
+.button.key:before,
+.button.key:after {
+  content: "";
+  display: inline-block;
+  width: 2em;
+}
+.button.key.checked:before {
+  content: "\2713";
+}

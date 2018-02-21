@@ -1,0 +1,6 @@
+while True:
+	eCO2 = get_eCO2()
+	TVOC = get_TVOC()
+	log("eCO2:", eCO2, "\n")
+	log("TVOC:", TVOC, "\n")
+	sleep(30)

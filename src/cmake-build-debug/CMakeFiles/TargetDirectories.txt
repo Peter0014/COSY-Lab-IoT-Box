@@ -1,0 +1,3 @@
+/cygdrive/c/Users/peter/Desktop/Schule/Bachelorarbeit/GIT/COSY-Lab-IoT-Box/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/peter/Desktop/Schule/Bachelorarbeit/GIT/COSY-Lab-IoT-Box/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/peter/Desktop/Schule/Bachelorarbeit/GIT/COSY-Lab-IoT-Box/src/cmake-build-debug/CMakeFiles/src.dir

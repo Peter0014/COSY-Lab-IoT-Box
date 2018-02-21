@@ -1,0 +1,598 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{anyt/global/}
+    \entry{raspNet}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=29a9e1453b50e2b6f8184173fd615700}{%
+           family={Anire},
+           family_i={A\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           given_i={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c27be50f0639f8183990c9f4a26a61f9}{%
+           family={Cruz},
+           family_i={C\bibinitperiod},
+           given={F.\bibnamedelimi R.\bibnamedelimi G.},
+           given_i={F\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d759ba617197bbff949362bc087a8d98}{%
+           family={Agulto},
+           family_i={A\bibinitperiod},
+           given={I.\bibnamedelimi C.},
+           given_i={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b69db0a8dd4f4f589608db7992497dcb}
+      \strng{fullhash}{b69db0a8dd4f4f589608db7992497dcb}
+      \field{labelalpha}{ACA17}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017IEEE 9th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment and Management (HNICEM)}
+      \field{month}{12}
+      \field{title}{Environmental wireless sensor network using raspberry Pi 3 for greenhouse monitoring system}
+      \field{year}{2017}
+    \endentry
+    \entry{bme280}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=191ac87052716d97924c302fefe7b49c}{%
+           family={{Adafruit - BME280}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{191ac87052716d97924c302fefe7b49c}
+      \strng{fullhash}{191ac87052716d97924c302fefe7b49c}
+      \field{labelalpha}{Ada18}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout?view=all}}
+      \field{year}{accessed February 10, 2018}
+    \endentry
+    \entry{ccs811}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0c3f040ce9fe55bece9dd14495245273}{%
+           family={{Adafruit - CCS811}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c3f040ce9fe55bece9dd14495245273}
+      \strng{fullhash}{0c3f040ce9fe55bece9dd14495245273}
+      \field{labelalpha}{Ada18}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://learn.adafruit.com/adafruit-ccs811-air-quality-sensor?view=all}}
+      \field{year}{accessed February 10, 2018}
+    \endentry
+    \entry{si1145}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f3d12ea4845932e9e88b778f79a0e09}{%
+           family={{Adafruit - SI1145}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f3d12ea4845932e9e88b778f79a0e09}
+      \strng{fullhash}{8f3d12ea4845932e9e88b778f79a0e09}
+      \field{labelalpha}{Ada18}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://learn.adafruit.com/adafruit-si1145-breakout-board-uv-ir-visible-sensor?view=all}}
+      \field{year}{accessed February 10, 2018}
+    \endentry
+    \entry{pythonC}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=4532cbfc4f9c3587429041ddd3fd7162}{%
+           family={An},
+           family_i={A\bibinitperiod},
+           given={Fenghua},
+           given_i={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Oklahoma State University}%
+      }
+      \strng{namehash}{4532cbfc4f9c3587429041ddd3fd7162}
+      \strng{fullhash}{4532cbfc4f9c3587429041ddd3fd7162}
+      \field{labelalpha}{An06}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Efficient parallel programming using Python and C}
+      \field{type}{phdthesis}
+      \field{year}{2006}
+    \endentry
+    \entry{carWork}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4b32c4e5a2b1ebf84f710e072622479a}{%
+           family={Caldeira},
+           family_i={C\bibinitperiod},
+           given={Ken},
+           given_i={K\bibinitperiod}}}%
+        {{hash=d137d5be1099b5bd6b9ff7ddecd17d56}{%
+           family={Davis},
+           family_i={D\bibinitperiod},
+           given={Steven\bibnamedelima J},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{84b2052d2b01f5c56ff1895d15a9928b}
+      \strng{fullhash}{84b2052d2b01f5c56ff1895d15a9928b}
+      \field{labelalpha}{CD11}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{21}
+      \field{title}{Accounting for carbon dioxide emissions: A matter of time}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{8533\bibrangedash 8534}
+      \range{pages}{2}
+    \endentry
+    \entry{masteringPi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a1a9d24ed6094a239c6c1bd7624f895b}{%
+           family={Gay},
+           family_i={G\bibinitperiod},
+           given={Warren},
+           given_i={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{a1a9d24ed6094a239c6c1bd7624f895b}
+      \strng{fullhash}{a1a9d24ed6094a239c6c1bd7624f895b}
+      \field{labelalpha}{Gay14}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4842-0181-7}
+      \field{title}{Mastering the Raspberry Pi}
+      \field{year}{2014}
+    \endentry
+    \entry{smartEnv}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=3b1a5dd47d6ae6a5c4a5cea42b5bce03}{%
+           family={Ibrahim},
+           family_i={I\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{hash=a0c3907ad65727d85205b0d83237be3b}{%
+           family={Elgamri},
+           family_i={E\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{hash=402c1e087e01596013c8a362492d65c0}{%
+           family={Babiker},
+           family_i={B\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=1899e319db0d66173d319617e8ceec33}{%
+           family={Mohamed},
+           family_i={M\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f856513dd199ffe52401ab2a767c504}
+      \strng{fullhash}{4f856513dd199ffe52401ab2a767c504}
+      \field{labelalpha}{Ibr+15}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 Fifth International Conference on Digital Information Processing and Communications (ICDIPC)}
+      \field{month}{10}
+      \field{title}{Internet of things based smart environmental monitoring using the Raspberry-Pi computer}
+      \field{year}{2015}
+    \endentry
+    \entry{lightDesc}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=15f70eecebb9117d207a51a67aa2850b}{%
+           family={Mori},
+           family_i={M\bibinitperiod},
+           given={Kazuyoshi},
+           given_i={K\bibinitperiod}}}%
+        {{hash=c56d20b79eea18cdb2847a8eb3e2b6bd}{%
+           family={Nishida},
+           family_i={N\bibinitperiod},
+           given={Takeshi},
+           given_i={T\bibinitperiod}}}%
+        {{hash=0300b1cfb8d8af5dd1468543c8457d84}{%
+           family={Hashimoto},
+           family_i={H\bibinitperiod},
+           given={Hideaki},
+           given_i={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{ee8600a7e55f767b5124f1969144ff31}
+      \strng{fullhash}{ee8600a7e55f767b5124f1969144ff31}
+      \field{labelalpha}{MNH03}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04~22}
+      \field{note}{US Patent 6,551,493}
+      \field{title}{Ultraviolet light measuring chip and ultraviolet light sensor using the same}
+      \field{year}{2003}
+    \endentry
+    \entry{uml}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0ca38597a5602d03c089491f977a484}{%
+           family={{Object Management Group}},
+           family_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0ca38597a5602d03c089491f977a484}
+      \strng{fullhash}{d0ca38597a5602d03c089491f977a484}
+      \field{labelalpha}{Obj17}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.omg.org/spec/UML/2.5.1/PDF}}
+      \field{month}{12}
+      \field{title}{Unified Modeling Language}
+      \field{year}{2017}
+    \endentry
+    \entry{raspberry}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6017d2fbaaee812cd1a0628bc0a6b242}{%
+           family={{Raspberry Pi Foundation}},
+           family_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6017d2fbaaee812cd1a0628bc0a6b242}
+      \strng{fullhash}{6017d2fbaaee812cd1a0628bc0a6b242}
+      \field{labelalpha}{Ras18}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://www.raspberrypi.org}}
+      \field{year}{2012 (accessed February 5, 2018)}
+    \endentry
+    \entry{iotPatterns}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=dd1309bd2df64473a5f8ef2b0f063090}{%
+           family={Reinfurt},
+           family_i={R\bibinitperiod},
+           given={Lukas},
+           given_i={L\bibinitperiod}}}%
+        {{hash=6bf3e162cc740698f710dc1f92932fa8}{%
+           family={Breitenbücher},
+           family_i={B\bibinitperiod},
+           given={Uwe},
+           given_i={U\bibinitperiod}}}%
+        {{hash=fe65ba41166aff72e61b7657883705b0}{%
+           family={Falkenthal},
+           family_i={F\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+        {{hash=415e2bec5763afbeeeadd2e0c4bd0696}{%
+           family={Leymann},
+           family_i={L\bibinitperiod},
+           given={Frank},
+           given_i={F\bibinitperiod}}}%
+        {{hash=de5c76afee59052f3c0d288ab7fddbe7}{%
+           family={Riegg},
+           family_i={R\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9b62f70d68a12eada8ad3c78a00c83eb}
+      \strng{fullhash}{9b62f70d68a12eada8ad3c78a00c83eb}
+      \field{labelalpha}{Rei+16}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st European Conference on Pattern Languages of Programs}
+      \field{title}{Internet of things patterns}
+      \field{year}{2016}
+      \field{pages}{5}
+      \range{pages}{1}
+    \endentry
+    \entry{repyFork}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=30539a567e25df864cc0cae87d67761c}{%
+           family={{Repy V2 - Github Fork}},
+           family_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{30539a567e25df864cc0cae87d67761c}
+      \strng{fullhash}{30539a567e25df864cc0cae87d67761c}
+      \field{labelalpha}{Rep18}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://github.com/Peter0014/repy_v2}}
+      \field{year}{2017 (accessed February 9, 2018)}
+    \endentry
+    \entry{urbanRasp}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=49bfc67a0189721fdae5a9b67a636d63}{%
+           family={Shete},
+           family_i={S\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{hash=928e108e3ccc23ba8f5498b165973daf}{%
+           family={Agrawal},
+           family_i={A\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a4e4b8f48442b4458080d79d7e34e30}
+      \strng{fullhash}{0a4e4b8f48442b4458080d79d7e34e30}
+      \field{labelalpha}{SA16}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Communication and Signal Processing (ICCSP)}
+      \field{month}{04}
+      \field{title}{IoT based urban climate monitoring using Raspberry Pi}
+      \field{year}{2016}
+    \endentry
+    \entry{seattleHomepage}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4c54c163f43d0ac8512df032b3b07bff}{%
+           family={Seattle},
+           family_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c54c163f43d0ac8512df032b3b07bff}
+      \strng{fullhash}{4c54c163f43d0ac8512df032b3b07bff}
+      \field{labelalpha}{Sea18}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://seattle.poly.edu/html/}}
+      \field{year}{2013 (accessed February 5, 2018)}
+    \endentry
+    \entry{seattleGithub}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7313cf2b57f351a74971e6aba20b4652}{%
+           family={{Seattle - Github}},
+           family_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7313cf2b57f351a74971e6aba20b4652}
+      \strng{fullhash}{7313cf2b57f351a74971e6aba20b4652}
+      \field{labelalpha}{Sea18}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{https://github.com/SeattleTestbed}}
+      \field{year}{2014 (accessed February 5, 2018)}
+    \endentry
+    \entry{lora}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=4d3d0d380118788ffadf7ee88181343d}{%
+           family={Sornin},
+           family_i={S\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+        {{hash=c0d858acb71f493d994107604c8c552e}{%
+           family={Luis},
+           family_i={L\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+        {{hash=62cb02e383b1c50ebb25b511a17b492f}{%
+           family={Eirich},
+           family_i={E\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{hash=23e5ef467fd325abd3cd307976f6fa68}{%
+           family={Kramp},
+           family_i={K\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{hash=5a30fc789ca6e4e9ab1e3550beb1e5e8}{%
+           family={Hersent},
+           family_i={H\bibinitperiod},
+           given={O.},
+           given_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1d34b304bd7376ef1350cde24b49371}
+      \strng{fullhash}{a1d34b304bd7376ef1350cde24b49371}
+      \field{labelalpha}{Sor+15}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{LoRa Alliance}
+      \field{title}{LoRaWAN™ Specification}
+      \field{year}{2015}
+    \endentry
+    \entry{stHum}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1c300baeeff20b3c96b7b363b91ae2ee}{%
+           family={{STMicroelectronics - HTS221}},
+           family_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c300baeeff20b3c96b7b363b91ae2ee}
+      \strng{fullhash}{1c300baeeff20b3c96b7b363b91ae2ee}
+      \field{labelalpha}{STM18}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{http://www.st.com/content/st_com/en/products/mems-and-sensors/humidity-sensors/hts221.html}}
+      \field{year}{accessed February 13, 2018}
+    \endentry
+    \entry{stPress}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=42d722209cd40c98f79a713fffffeae5}{%
+           family={{STMicroelectronics - LPS25HB}},
+           family_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{42d722209cd40c98f79a713fffffeae5}
+      \strng{fullhash}{42d722209cd40c98f79a713fffffeae5}
+      \field{labelalpha}{STM18}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{http://www.st.com/content/st_com/en/products/mems-and-sensors/pressure-sensors/lps25hb.html}}
+      \field{year}{accessed February 13, 2018}
+    \endentry
+    \entry{speedComp}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=da025933cf47e929195651e24a4c0f0f}{%
+           family={{The Computer Language Benchmarks Game}},
+           family_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{da025933cf47e929195651e24a4c0f0f}
+      \strng{fullhash}{da025933cf47e929195651e24a4c0f0f}
+      \field{labelalpha}{The18}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{\url{http://benchmarksgame.alioth.debian.org/u64q/which-programs-are-fastest.html}}
+      \field{year}{accessed February 15, 2018}
+    \endentry
+    \entry{loraEval}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=210ff7b97cddba467db6a6ce23c3a790}{%
+           family={Wixted},
+           family_i={W\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=622fe5f0d5ef2e230a5620d7b73a6dd9}{%
+           family={Kinnaird},
+           family_i={K\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{hash=7d9c80112a5efc70ed7db338e88679cd}{%
+           family={Larijani},
+           family_i={L\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
+        {{hash=16512b716786afdb74e06949b055312d}{%
+           family={Tait},
+           family_i={T\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{hash=7126ad2aadd6a521a8829599627fc6dc}{%
+           family={Ahmadinia},
+           family_i={A\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{hash=722934ed2160081df968907d1ecd05eb}{%
+           family={Strachan},
+           family_i={S\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e323bad9df8f5f4ef55a5047bc86a4b}
+      \strng{fullhash}{6e323bad9df8f5f4ef55a5047bc86a4b}
+      \field{labelalpha}{Wix+16}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE SENSORS}
+      \field{month}{10}
+      \field{title}{Evaluation of LoRa and LoRaWAN for wireless sensor networks}
+      \field{year}{2016}
+    \endentry
+    \entry{iot}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fcc7df98b43603dc06c2a196e5459dd7}{%
+           family={Xia},
+           family_i={X\bibinitperiod},
+           given={Feng},
+           given_i={F\bibinitperiod}}}%
+        {{hash=39bbceef94f35cf229ca0017d7d4da33}{%
+           family={Yang},
+           family_i={Y\bibinitperiod},
+           given={Laurence\bibnamedelima T},
+           given_i={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=facf1d664610e22890a03b915592dc57}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Lizhe},
+           given_i={L\bibinitperiod}}}%
+        {{hash=b1eeb394d288bf38263096dba672703d}{%
+           family={Vinel},
+           family_i={V\bibinitperiod},
+           given={Alexey},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c9bf589e4941e3dda5ba20d76d8a0ed}
+      \strng{fullhash}{2c9bf589e4941e3dda5ba20d76d8a0ed}
+      \field{labelalpha}{Xia+12}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Communication Systems}
+      \field{number}{9}
+      \field{title}{Internet of things}
+      \field{volume}{25}
+      \field{year}{2012}
+      \field{pages}{1101}
+      \range{pages}{1}
+    \endentry
+    \entry{seattlePaper}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=aaecfa5a3fdf806f547c9af7574d6246}{%
+           family={Zhuang},
+           family_i={Z\bibinitperiod},
+           given={Yanyan},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=775219cc658fa400c6459c9a230bc3d8}{%
+           family={Rafetseder},
+           family_i={R\bibinitperiod},
+           given={Albert},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6853778da53c43325f7c04a85409a864}{%
+           family={Cappos},
+           family_i={C\bibinitperiod},
+           given={Justin},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{404bd6431d28c8e6588bb934eca12477}
+      \strng{fullhash}{404bd6431d28c8e6588bb934eca12477}
+      \field{labelalpha}{ZRC13}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Research and Educational Experiment Workshop (GREE), 2013 Second GENI}
+      \field{title}{Experience with seattle: A community platform for research and education}
+      \field{year}{2013}
+      \field{pages}{37\bibrangedash 44}
+      \range{pages}{8}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

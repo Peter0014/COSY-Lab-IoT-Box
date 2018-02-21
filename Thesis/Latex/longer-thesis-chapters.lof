@@ -1,0 +1,12 @@
+\select@language {english}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces Use case diagram describing the \gls {CoSy} Lab \gls {IoT}-Box Project\relax }}{4}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Deployment diagram\relax }}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Excerpt of the class diagram\relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces Path from experiment to C code\relax }}{13}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Screenshot of the visualization homepage\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Data collected by the BME280 sensor\relax }}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Data collected by the SI1145 sensor\relax }}{18}{figure.caption.12}
+\contentsline {figure}{\numberline {8}{\ignorespaces Data collected by the CCS811 sensor\relax }}{19}{figure.caption.13}

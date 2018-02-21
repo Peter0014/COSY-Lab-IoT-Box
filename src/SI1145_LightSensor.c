@@ -30,9 +30,6 @@
 #include <unistd.h>
 #include "SI1145_LightSensor.h"
 
-/* Predefine necessary methods */
-void initLightSensor(void);
-
 /**
  * It is recommended to reset the command register to 0x00
  * before writing to it and check if the response register
@@ -117,15 +114,6 @@ void enableMeas(int sensor) {
 
     /* auto run */
     writeToCommand(sensor, SI1145_PSALS_AUTO);
-}
-
-/**
- * Configure the sensor to work properly. In this case it
- * calibrates the UV reading and enables measurments.
- *
- * @param sensor sensor ID
- */
-void calibrateSensor(int sensor) {
 }
 
 /**

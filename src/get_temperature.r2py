@@ -13,10 +13,10 @@ while True:
     log("T:", temperature, "C \n")
 
     humRound = "{0:.2f}".format(humidity)
-    log("H::", humRound, "hPa \n")
+    log("H::", humRound, "% \n")
 
     pressRound = "{0:.2f}".format(pressure)
-    log("P::", pressRound, "% \n")
+    log("P::", pressRound, "hPa \n")
 
     output = str(temperature) + ";" + str(humRound) + ";" + str(pressRound) + "\n"
     tempFile.writeat(output, i)
