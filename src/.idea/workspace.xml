@@ -12,15 +12,120 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b0bbad-15b9-4d71-8402-0971c533d3fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../DesignDoc/Deployment_diagram.png" afterPath="$PROJECT_DIR$/../DesignDoc/Deployment_diagram.png" />
-      <change beforePath="$PROJECT_DIR$/../DesignDoc/Deployment_diagram.xml" afterPath="$PROJECT_DIR$/../DesignDoc/Deployment_diagram.xml" />
-      <change beforePath="$PROJECT_DIR$/../DesignDoc/Use Case Diagram.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DesignDoc/Use Case Diagram.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DesignDoc/Use Case Specification.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../DesignDoc/Use Case Specification.tex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SI1145_LightSensor.c" afterPath="$PROJECT_DIR$/SI1145_LightSensor.c" />
-      <change beforePath="$PROJECT_DIR$/get_temperature.r2py" afterPath="$PROJECT_DIR$/get_temperature.r2py" />
-      <change beforePath="$PROJECT_DIR$/save_sensor_data.r2py" afterPath="$PROJECT_DIR$/save_sensor_data.r2py" />
+      <change beforePath="$PROJECT_DIR$/../Data/Hum_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/Hum_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/IR_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/IR_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/Pres_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/Pres_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/Temp_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/Temp_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/UV_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/UV_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/VIS_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/VIS_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/VOC_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/VOC_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../Data/eCO2_09-02-2018.PNG" afterPath="$PROJECT_DIR$/../Data/eCO2_09-02-2018.PNG" />
+      <change beforePath="$PROJECT_DIR$/../DesignDoc/Sketch_Breadboard.pdf" afterPath="$PROJECT_DIR$/../DesignDoc/Sketch_Breadboard.pdf" />
+      <change beforePath="$PROJECT_DIR$/../Seattle.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/INSTALL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/Peter0014.privatekey" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/Peter0014.publickey" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/build_manager.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/constants.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/logging.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/management/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/management/commands/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/management/commands/cleaninstallers.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/packager.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/common/validations.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/css/base.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/css/builder.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/css/download_installers.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/css/download_keys.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/android.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/grabber.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/key.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/linux.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/mac.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/img/windows.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/js/base.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/js/builder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/js/keys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/static/js/qrcode.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/templates/base.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/templates/builder.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/templates/download_installers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/templates/download_keys.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/templates/error.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/html/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/local/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/local/settings.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/manage.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/rebuild_base_installers.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/rebuild_base_installers.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/scripts/build.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/scripts/config_build.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/scripts/config_initialize.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/scripts/initialize.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/settings_base.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/tests/example_single_build.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/tests/example_stress_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/tests/test_build_installers.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/tests/test_invalid_input.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/wsgi/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/wsgi/wsgi.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/xmlrpc/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/xmlrpc/functions.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/xmlrpc/templates/xmlrpc-info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/xmlrpc/urls.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Seattle/xmlrpc/views.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/acronyms.tex" afterPath="$PROJECT_DIR$/../Thesis/Latex/acronyms.tex" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/bibliography/bibliography.bib" afterPath="$PROJECT_DIR$/../Thesis/Latex/bibliography/bibliography.bib" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/cover.tex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/CPython_Workflow.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/Class_Diagram_Cropped.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/Deployment_diagram.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/Sketch_Breadboard.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/Use_Case_Diagram.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/Website_Mockup.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/Hum_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/IR_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/Pres_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/Temp_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/UV_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/VIS_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/VOC_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/expEval/eCO2_09-02-2018.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/images/logo-univie.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/components/info.tex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.acn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.acr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.alg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.aux" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.bbl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.bcf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.blg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.fdb_latexmk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.fls" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.ist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.lof" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.lot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.run.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.synctex.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.tex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/longer-thesis-chapters.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/mas-thesis-chapters.cls" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/mas-thesis-common.cls" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/mas-thesis-sections.cls" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/Latex/shorter-thesis-sections.tex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Thesis/thesis.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../quellen.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/CCS811_AirQuality_Wrapper.c" afterPath="$PROJECT_DIR$/CCS811_AirQuality_Wrapper.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,18 +141,18 @@
       <file leaf-file-name="BME280_TempSensor.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BME280_TempSensor.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5695">
-              <caret line="360" column="21" lean-forward="true" selection-start-line="360" selection-start-column="21" selection-end-line="360" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="360" column="21" lean-forward="false" selection-start-line="360" selection-start-column="21" selection-end-line="360" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BME280_TempSensor.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BME280_TempSensor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BME280_TempSensor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="17">
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#706#727#0" expanded="true" />
               </folding>
@@ -58,7 +163,7 @@
       <file leaf-file-name="SI1145_LightSensor.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SI1145_LightSensor.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
+            <state relative-caret-position="2975">
               <caret line="175" column="22" lean-forward="false" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
               <folding>
                 <element signature="e#827#846#0" expanded="true" />
@@ -67,47 +172,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SI1145_LightSensor.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SI1145_LightSensor.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SI1145_LightSensor.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#657#678#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="namespace.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/namespace.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13464">
-              <caret line="810" column="25" lean-forward="false" selection-start-line="810" selection-start-column="25" selection-end-line="810" selection-end-column="25" />
-              <folding>
-                <element signature="e#5052#5064#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCS811_AirQuality.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CCS811_AirQuality.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CCS811_AirQuality_Wrapper.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CCS811_AirQuality_Wrapper.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-770">
-              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <element signature="e#42#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -258,6 +329,7 @@
       <workItem from="1517928208308" duration="9410000" />
       <workItem from="1519046153970" duration="307000" />
       <workItem from="1519046494154" duration="11885000" />
+      <workItem from="1519899400863" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Source Code - sensor driver, r2py">
       <created>1516115131088</created>
@@ -270,16 +342,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135974000" />
+    <option name="totallyTimeSpent" value="136110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -289,6 +360,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -348,9 +420,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13770">
           <caret line="810" column="25" lean-forward="false" selection-start-line="810" selection-start-column="25" selection-end-line="810" selection-end-column="25" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -374,9 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
           <caret line="118" column="6" lean-forward="false" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -430,9 +498,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="124" column="16" lean-forward="false" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -478,9 +544,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13209">
           <caret line="777" column="18" lean-forward="true" selection-start-line="777" selection-start-column="18" selection-end-line="777" selection-end-column="19" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,9 +598,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13413">
           <caret line="789" column="60" lean-forward="true" selection-start-line="789" selection-start-column="60" selection-end-line="789" selection-end-column="60" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,9 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13328">
           <caret line="784" column="41" lean-forward="true" selection-start-line="784" selection-start-column="41" selection-end-line="784" selection-end-column="41" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,9 +656,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13226">
           <caret line="778" column="20" lean-forward="true" selection-start-line="778" selection-start-column="20" selection-end-line="778" selection-end-column="20" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -632,9 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2074">
           <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -728,15 +784,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13464">
           <caret line="810" column="25" lean-forward="false" selection-start-line="810" selection-start-column="25" selection-end-line="810" selection-end-column="25" />
-          <folding>
-            <element signature="e#5052#5064#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SI1145_LightSensor.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
+        <state relative-caret-position="2975">
           <caret line="175" column="22" lean-forward="false" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
           <folding>
             <element signature="e#827#846#0" expanded="true" />
@@ -752,13 +806,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BME280_TempSensor.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="360" column="21" lean-forward="false" selection-start-line="360" selection-start-column="21" selection-end-line="360" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BME280_TempSensor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#706#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CCS811_AirQuality_Wrapper.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1700">
+          <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,24 +838,6 @@
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#657#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BME280_TempSensor.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5695">
-          <caret line="360" column="21" lean-forward="true" selection-start-line="360" selection-start-column="21" selection-end-line="360" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BME280_TempSensor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#706#727#0" expanded="true" />
           </folding>
         </state>
       </provider>

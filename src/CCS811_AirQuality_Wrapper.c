@@ -12,6 +12,10 @@
 
 int isInit = 0;
 
+/**
+ * Initialize the sensor once at the beginning of reading data,
+ * or to reconfigure the sensor.
+ */
 void initSensor() {
     if (isInit == 0) {
         int sensor;
@@ -25,11 +29,11 @@ void initSensor() {
 }
 
 /**
- * Setup the sensor and read the current IR value from the device.
+ * Setup the sensor and read the current eCO2 value from the device.
  *
  * @param self python instance the method is called on
  * @param args passed arguments from calling python method
- * @return infrared light value
+ * @return eCO2 value
  */
 static PyObject *get_eCO2(PyObject *self, PyObject *args) {
     initSensor();
@@ -49,11 +53,11 @@ static PyObject *get_eCO2(PyObject *self, PyObject *args) {
 }
 
 /**
- * Setup the sensor and read the current IR value from the device.
+ * Setup the sensor and read the current TVOC value from the device.
  *
  * @param self python instance the method is called on
  * @param args passed arguments from calling python method
- * @return infrared light value
+ * @return TVOC value
  */
 static PyObject *get_TVOC(PyObject *self, PyObject *args) {
     initSensor();
@@ -95,6 +99,4 @@ int main(int argc, char **argv) {
     Py_Initialize();
     /* Initialize methods */
     initairSensor();
-
-    //test();
 }
